@@ -1,0 +1,12 @@
+name: dl21
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - matplotlib
+  - scipy
+  - numpy
+  - pytorch
+  - torchvision
+  - jupyterlab
+prefix: /home/mark/anaconda3/envs/dl21

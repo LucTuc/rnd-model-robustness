@@ -1,0 +1,4 @@
+from .fc_net import FullyConnected, FCNetTrainer, FCNetTester
+from .fc_ensemble import EnsembleOfFullyConnected, EnsembleOfFCTester, EnsembleOfFCTrainer
+from .random_self_ensemble import FullyConnectedRandomSelfEnsemble, FullyConnectedRSETrainer, FullyConnectedRSETester
+from .bayesian_fc_net import BayesianFullyConnected, FullyConnectedBNNTrainer, FullyConnectedBNNTester
